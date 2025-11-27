@@ -1,14 +1,6 @@
-WEBPROG II. Gyakorlat-Beadandó (Node.js, Linux)
+Jani-Szabi kft. WEBPROG II. Gyakorlat-Beadandï¿½ (Node.js, Linux)
 
-Készítette: Szokolai János Dániel és Pécsy Szabolcs
-
-student 151
-
-
+Kï¿½szï¿½tette: Szokolai Jï¿½nos Dï¿½niel ï¿½s Pï¿½csy Szabolcs
 
 Admin:admin@example.com
-jelszó:admin123
-
-
-node indito.js ( indítás)
-
+jelszï¿½:admin123

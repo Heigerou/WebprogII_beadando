@@ -1,8 +1,8 @@
-const BASE_PATH = '/app152';
+const BASE_PATH = '/app161';
 
 export function ensureLoggedIn(req, res, next) {
   if (req.isAuthenticated()) return next();
-  req.flash('error', 'Kérjük, jelentkezz be!');
+  req.flash('error', 'Kï¿½rjï¿½k, jelentkezz be!');
   res.redirect(`${BASE_PATH}/auth/login`);
 }
 
@@ -14,7 +14,7 @@ export function ensureRole(role) {
     )
       return next();
 
-    req.flash('error', 'Nincs jogosultságod.');
+    req.flash('error', 'Nincs jogosultsï¿½god.');
     res.redirect(`${BASE_PATH}/`);
   };
 }

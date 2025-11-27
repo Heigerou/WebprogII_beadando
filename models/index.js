@@ -1,14 +1,12 @@
 import { DataTypes } from 'sequelize';
 import { sequelize } from '../config/database.js';
 
-/** Auth felhasznlk */
 export const User = sequelize.define('User', {
   email: { type: DataTypes.STRING, allowNull:false, unique:true },
   passwordHash: { type: DataTypes.STRING, allowNull:false },
   role: { type: DataTypes.ENUM('registered','admin'), defaultValue: 'registered' }
 });
 
-/** Feladat adatbzisa */
 export const Hely = sequelize.define('Hely', {
   az: { type: DataTypes.INTEGER, primaryKey:true },
   telepules: { type: DataTypes.STRING, allowNull:false },
